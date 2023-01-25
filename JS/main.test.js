@@ -1,4 +1,4 @@
-import { functionLength, functionPop, functionPush, functionShift, functionSome, functionUnshift} from './main';
+import { functionEvery, functionLength, functionPop, functionPush, functionShift, functionSome, functionUnshift} from './main';
 import { array1 } from './arrayprop';
 
 describe("given an array", () => {
@@ -32,7 +32,7 @@ describe("given an array", () => {
   describe("create a function that", () => {
     test("add one or more element to the beginning of the array and display his new length", () => {
       const r = functionUnshift(array1);
-      expect(r).toBe(5);
+      expect(r).toBe(6);
     });
   });
 });
@@ -55,3 +55,11 @@ describe("given an array", () => {
   });
 });
 
+describe("given an array", () => {
+  describe("create a function that", () => {
+    test("check if in the array all his element satisfy one specific condition, returning true if thats the case", () => {
+      const r = functionEvery(array1);
+      expect(r).toBe(true);
+    });
+  });
+});
