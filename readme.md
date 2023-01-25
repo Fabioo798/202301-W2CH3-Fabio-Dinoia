@@ -17,3 +17,7 @@ Challenge en parejas.​Crea un modulo con funciones que repliquen, sin utilizar
 -indexOf,
 -reduce,
 -join
+
+## Development of the challange:
+
+-create configuration branch and install eslint, huskies, jess;
