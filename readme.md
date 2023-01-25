@@ -20,4 +20,10 @@ Challenge en parejas.​Crea un modulo con funciones que repliquen, sin utilizar
 
 ## Development of the challange:
 
+-initial commit with : editorconfig, .gitignore, readme.md, package,json
+
 -create configuration branch and install eslint, huskies, jess;
+
+-create branch with JS files and complete first 3 ste of challanges;
+
+-create other branch and complete other 3 step of the challange;
