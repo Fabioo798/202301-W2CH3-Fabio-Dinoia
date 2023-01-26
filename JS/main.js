@@ -20,7 +20,7 @@ export const functionPop = (array1) => {
   const arraylength = functionLength(array1) - 1;
   const deletedElement = array1[arraylength];
 
-  // Delete will live remove the element but the index of the array wont change;
+  // Delete will remove the element but the index of the array wont change;
   delete array1[arraylength];
 
   return deletedElement;
@@ -54,7 +54,7 @@ export const functionShift = (array1) => {
 export const functionSome = (array1) => {
   const matchFound = 45;
 
-  for (let i of array1) {
+  for (const i of array1) {
     if (i === matchFound) return true;
   }
 
@@ -64,7 +64,7 @@ export const functionSome = (array1) => {
 export const functionEvery = (array1) => {
   const elementCondition = 10;
 
-  for (let i of array1) {
+  for (const i of array1) {
     if (i > elementCondition) return false;
   }
 
