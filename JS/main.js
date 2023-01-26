@@ -25,11 +25,9 @@ export const functionPop = (array1) => {
 
   return deletedElement;
 };
- 
-export const functionUnshift = (array1) => {
 
-  
-  const arraylength = functionLength(array1) -1 ;
+export const functionUnshift = (array1) => {
+  const arraylength = functionLength(array1) - 1;
 
   // eslint-disable-next-line for-direction
   for (let i = arraylength; i > 0; i--) {
@@ -64,8 +62,7 @@ export const functionSome = (array1) => {
 };
 
 export const functionEvery = (array1) => {
-  
-  const elementCondition = 10 ;
+  const elementCondition = 10;
 
   for (let i of array1) {
     if (i > elementCondition) return false;
