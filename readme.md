@@ -22,8 +22,10 @@ Challenge en parejas.​Crea un modulo con funciones que repliquen, sin utilizar
 
 -initial commit with : editorconfig, .gitignore, readme.md, package,json
 
--create configuration branch and install eslint, huskies, jess;
+-create configuration branch and install eslint, huskies, jest, connect with sonarcloud;
 
 -create branch with JS files and complete first 3 ste of challanges;
 
 -create other branch and complete other 3 step of the challange;
+
+-failing in getting the 100% of the coverage due tu issue with boolemian values;
