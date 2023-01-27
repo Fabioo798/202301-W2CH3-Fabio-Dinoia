@@ -1,6 +1,6 @@
 export const functionLength = (array1) => {
   let length = 0;
-  for (let i of array1) {
+  for (const i of array1) {
     length++;
   }
 
@@ -53,19 +53,25 @@ export const functionShift = (array1) => {
 
 export const functionSome = (array1) => {
   const matchFound = 45;
+  let result;
 
   for (const i of array1) {
-    if (i === matchFound) return true;
+    if (i === matchFound) {
+      result = true;
+    }
   }
 
-  return false;
+  result = false;
+  return result;
 };
 
 export const functionEvery = (array1) => {
   const elementCondition = 10;
 
   for (const i of array1) {
-    if (i > elementCondition) return false;
+    if (i > elementCondition) {
+      return false;
+    }
   }
 
   return true;
