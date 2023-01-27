@@ -34,31 +34,33 @@ Challenge en parejas.​Crea un modulo con funciones que repliquen, sin utilizar
 
 CODE:
 
+```javascript
 export const functionSome = (array1) => {
-const matchFound = 45;
-let result;
+  const matchFound = 45;
+  let result;
 
-for (const i of array1) {
-if (i === matchFound) {
-result = true; //line 60
-}
-}
+  for (const i of array1) {
+    if (i === matchFound) {
+      result = true; //line 60
+    }
+  }
 
-result = false;
-return result;
+  result = false;
+  return result;
 };
 
 export const functionEvery = (array1) => {
-const elementCondition = 10;
+  const elementCondition = 10;
 
-for (const i of array1) {
-if (i > elementCondition) {
-return false; //line 73
-}
-}
+  for (const i of array1) {
+    if (i > elementCondition) {
+      return false; //line 73
+    }
+  }
 
-return true;
+  return true;
 };
+```
 
 TEST:
 
